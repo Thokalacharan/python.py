@@ -22,7 +22,7 @@ enter the R value10
 # write a program to find area and perimeter of rectangle
 l=float(input("enter l"))
 b=float(input("enter b"))
-a=l*b*0.5
+a=l*b
 b=2*(l+b)
 print("area",a)
 print("perimeter",b)
@@ -31,7 +31,7 @@ output:
 
 enter l3
 enter b4
-area 6.0
+area 12.0
 perimeter 14.0
 
 # write a program to find area and circumference of a circle
@@ -138,3 +138,99 @@ else:
 
 Enter a number between 1 and 7: 1
 Sunday
+
+# print the *
+n=int(input("enter the n"))
+i=1
+while i<=n:
+  j=1
+  while j<=i:  
+    print('*',end='')
+    j=j+1
+  print()
+  i=i+1   
+
+enter the n5
+*
+**
+***
+****
+*****
+
+ # print the *
+n=int(input("enter the n"))
+i=5
+while i>=1:
+  j=1
+  while j<=i:  
+    print('*',end='')
+    j=j+1
+  print()
+  i=i-1   
+
+enter the n5
+*****
+****
+***
+**
+*
+
+ # program to find the sum of first 10 natural numbers(while loop)
+n=int(input("enter the value"))
+sum=0
+i=1
+while i<=n:
+  sum=sum+i
+  i=i+1
+print(sum)
+
+enter the value10
+55
+
+# program to find the sum of first 10 natural numbers(for loop)
+n=int(input("enter the value"))
+sum=0
+for i in range(1,n+1):
+  sum=sum+i
+print(sum)
+
+enter the value10
+55
+
+# write a program multiplication table (while loop)
+n=int(input("enter the value"))
+i=1
+while i<=10:
+  print(n,"*",i,"=",n*i)
+  i=i+1
+
+enter the value5
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+
+# write a program multiplication table (for loop)
+n=int(input("enter the value"))
+for i in range(1,11):
+  print(n,"*",i,"=",n*i)
+
+enter the value5
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+
+
