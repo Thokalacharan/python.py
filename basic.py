@@ -233,4 +233,48 @@ enter the value5
 5 * 9 = 45
 5 * 10 = 50
 
+# write a program to print the each character of a string and string length
+str=input("enter the string")
+i=0
+while i<len(str):
+  print(str[i])
+  i=i+1
+print(len(str))
+
+
+enter the stringcharan
+c
+h
+a
+r
+a
+n
+6
+
+# print the factorial of a number
+i=1
+f=1
+n=int(input("enter the value"))
+while i<=n:
+  f=f*i
+  i=i+1
+print(f)
+
+enter the value5
+120
+
+# write a program to check the whether the given number is prime or not
+n=int(input("enter the value"))
+i=2
+while i<n:
+  if n%i==0:
+    print("not prime")
+    break
+  i=i+1
+else:
+  print("prime")
+
+enter the value7
+prime
+
 
