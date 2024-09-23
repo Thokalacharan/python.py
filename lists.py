@@ -56,4 +56,11 @@ l= [1,2,3,1,5,1,2,]
 l.remove(1)
 print(l)
 
+# concatenate two lists
+list1 = ["M", "na", "i", "cha"]
+list2 = ["y", "me", "s", "ran"]
+list3=[]
+for i,j in zip(list1,list2):
+    list3.append(i+j)
+print(list3)
 
